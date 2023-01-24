@@ -1,0 +1,99 @@
+/* .nav-bar{
+    height: 75px;
+} */
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+}
+
+.typing-animation {
+    animation: typing 3s steps(40, end);
+  }
+  
+  .cursor {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    49% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+    
+}
+
+.form-inline{
+
+    justify-content: center;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    height: 500px;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    justify-content: space-between;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+
+#about{
+    background: beige;
+    border: 1px solid;
+    border-radius: 5px;
+  
+}
+
+.container{
+
+    margin-top: 150px;
+}
+
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 358px;
+}
+
+
+#contact{
+    margin-top: 200px;
+}
+
+.jumbotron-bg {
+    background-image: url('https://www.hoamanagement.com/wp-content/uploads/2014/08/HOA-Attorneys-%E2%80%93-Why-They-Are-Important-And-How-To-Find-One.jpg');
+    background-size: cover;
+  }
+
+.row{
+    gap: 30px;
+}
